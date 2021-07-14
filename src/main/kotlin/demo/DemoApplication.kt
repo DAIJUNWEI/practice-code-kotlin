@@ -20,6 +20,7 @@ class MessageResource {
 		Message("2", "Bonjour!"),
 		Message("3", "Privet!"),
 	)
+
 }
 
 data class Message(val id: String?, val text: String)
